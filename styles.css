@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    z-index: 2;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2;
+   
+}
+.header{
+    max-width: 100vw;
+  
+    display: flex;
+}
+li{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 12vw;
+    font-size: 1.2vw;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 6vw;
+}
+.logo{
+    height: auto;
+    width: 20vw;
+    
+}
+a{
+
+    text-decoration: none;
+}
+header li:hover ,header a:hover{
+    color: #717CFF;
+}
+header{
+    display: flex;
+  
+    
+}
+.apply{
+    margin: 0px auto;
+    width: 9vw;
+    height:4vw;
+    font-size:  1.7vw;
+    background-color: white;
+    border-color: #717CFF;
+    border-radius: 1.1vw;
+    position: relative;
+    left: 4vw;
+    color: #717CFF;
+}
+.apply:hover{
+    background-color: #717CFF;
+    color: white;
+}
+.girlImage img{
+    width: 40vw;
+    height: auto;
+    position: relative;
+    
+    
+}
+#applyPage{
+    display: flex;
+    height: auto;
+    justify-content: space-between;  
+    width: 100%;
+    
+}
+#applyPage span{
+  color:  #717CFF;
+}
+.homeApply{
+    position: relative;
+    top: 20%;
+    left: 10vw;
+   
+}
+#applyPage h1{
+    font-size: 4vw;
+    line-height: 5vw;
+    font-weight: 700;
+}
+#applyPage p{
+    font-size: 1.4vw;
+    line-height: 3vw;
+    font-weight: 600;
+    color: #8E8E8E;
+    position: relative;
+   
+    right: 4wv;
+    bottom: 1vw;
+}
+#applyPage button{
+    width: 14vw;
+    height: 4vw;
+    font-size: 1.4vw;
+    border-radius: 1.1vw;
+    background-color: #717CFF;
+    border: 0px solid white;
+    color: white;
+}
+#applyPage button:hover{
+    width: 15vw;
+    height: 5vw;
+}
+.universityImg img{
+    width: 20%;
+    
+}
+.university{
+    height: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#FAFAFA;
+}
+
+.universityImg{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    bottom: 2vw;
+}
+.university h2{
+    font-size: 2.3vw;
+    font-weight: 700;
+}
+.services div{
+    width: 20vw;
+    height: 27vw;
+    border: 0.1vw solid white;
+    border-radius:2vw ;
+    margin: 1vw;
+    padding: 2vw;
+   overflow: hidden;
+    background-color: white;
+}
+@media only screen  and (max-width:800px){
+    .services div{
+        height: 29vw;
+    } 
+}
+@media only screen  and (max-width:600){
+    .services div{
+        width: 100vw;    
+    } 
+}
+@media only screen  and (max-width:400){
+    .services div{
+        width: 10vw;
+    } 
+}
+
+
+
+.services div:hover {
+    border: 0.3vw solid #717CFF;
+  }
+.services h4{
+    color: #717CFF;
+    position: relative;
+    left: 1.3vw;
+    bottom: 1.4vw;
+    font-size: 1.3vw;
+    
+}
+.services{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   }
+.servicesPage img{
+    width: 25%;
+}
+.servicesPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vw;
+    background-color: #e9e9e9;
+    
+}
+.services h3{
+    font-size: 2vw;
+    text-align: left;
+   position: relative;
+   left: 1vw;
+}
+.services p{
+    font-size: 1.2vw;
+    text-align: left;
+
+}
+.servicesPage h1{
+    font-size: 4vw;
+    
+}
+.servicesPage #text {
+    font-size:  1.4vw;
+    text-align: center;
+    line-height: 2vw;
+}
+.Newscontainer div img{
+    width: 100%;
+}
+.Newscontainer div{
+    height: 27vw;
+    width: 22vw;
+    border: 2px solid white;
+    border-radius: 1.1vw;
+    margin: 2vw;
+    background-color: white;
+}
+.Newscontainer div h4,p{
+    margin: 1.4vw;
+    font-size: 1.4vw;
+
+}
+.newsPage h1{
+    font-size: 3.5vw;
+}
+.newsPage p{
+    font-size: 1.5vw;
+}
+.newsPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vw;
+    background-color: #F3F3F3;
+}
+.newsPage button{
+    width: 20vw;
+    height: 5vw;
+    border-radius: 20px;
+    font-size: 2vw;
+    background-color: #717CFF;
+    border: 2px solid white;
+    color: white;
+}
+.newsPage button:hover{
+    width:21vw ;
+    height: 6vw;
+}
+.Newscontainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.eventsDivs{
+    width: 35vw;
+    border: 0.2vw solid white;
+    border-radius: 1.1vw;
+    margin: 3vw;
+    padding: 2vw;
+    background-color: #FFFFFF;
+    height: 25vw;
+}
+.universityEvents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 54vw;
+    font-size: 2vw;
+    background-color: #F9F9F9;
+}
+.eventsExemple{
+    display: flex;
+    justify-content: space-around;
+}
+.calendar{
+    display: flex;
+    background-color: #EBEDFF;
+    color: #717CFF;
+    width: 10vw;
+    justify-content: center;
+    border-radius: 1.1vw;
+    
+    margin: 1.5vw;
+    position: relative;
+    
+}
+.eventsDivs span{
+    font-weight: 500;
+}
+.universityEvents h2{
+    font-size: 2vw;
+    font-weight: 600;
+    margin: 1.5vw;
+    position: relative;
+    top: 2vw;
+}
+.universityEvents .calendar h2{
+    top: 0px;
+}
+.universityEvents h4{
+    font-size: 1.5vw;
+}
+.universityEvents p{
+    font-size: 1.5vw;
+    text-align: center;
+    width: 80vw;
+    letter-spacing: normal;
+}
+.eventsExemple p{
+    font-size: 1.2vw;
+    width: 33vw;
+    line-height: 2.3vw;
+    text-align: left;
+
+}
+.calendarDiv{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.footerEvent{
+    display: flex;
+    justify-content: space-around;
+
+}
+.footerEvent h3{
+    font-size: 11vw;
+    
+}
+.countriesContainer img{
+    width: 28vw;
+    border-radius: 2vw;
+}
+.countriesContainer div{
+    width: 28vw;
+    margin: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 2;
+    flex-wrap: wrap;
+    
+}
+.countriesContainer{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 2vw;
+    
+}
+.Countries{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vw;
+    background-color: #ececec;
+   
+}
+.countriesContainer div h2{
+    font-size: 2vw;
+    position: relative;
+    right: 22%;
+}
+.countriesContainer div p{
+    font-size: 1vw;
+    position: relative;
+    right: 1vw;
+    bottom:1.5vw;
+    width: 27vw;
+}
+.Countries .p{
+    width: 80vw;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    color:#646464;
+    position: relative;
+    bottom: 2vw;
+}
+.Countries h1{
+    font-size: 4vw;
+}
+.Testimonial div{
+    width: 33vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 1.1vw;
+    margin: 1.1vw;
+    position: relative;
+    bottom: 2px;
+    padding: 2vw;
+    background-color: white;
+}
+.Testimonial div h3 , h4{
+    font-size: 1.1vw;
+}
+.Testimonial h2{
+    font-size: 1.7vw;
+}
+.Testimonial{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 50vw;
+    background-color:  #F9F9F9;
+}
+.TestimonialDivs{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #646464;
+    width: 100%;
+    position: relative;
+    right: 24vw;
+}
+.Testimonial h2{
+    width: 60vw;
+}
+.Testimonial p{
+    width: 35vw;
+    font-size: 1.3vw;
+    line-height: 1.7vw;
+    position: relative;
+    top: 1.4vw;
+}
+.Testimonial h1{
+    font-size: 4vw;
+}
+.Testimonial span h1{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+
+.men{
+    width: 10vw;
+    border-radius: 1.1vw;
+    position: absolute;
+    right:70%; 
+    top:4%
+}
+.women{
+    position: absolute;
+    right:75%; 
+   bottom:64%;
+    width: 5.5vw;
+    border-radius: 1.1vw;
+}
+.preFooter{
+    height: 20vw;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.preFooter h1{
+    font-size: 4vw;
+    position: relative;
+    top: 20%;
+}
+.preFooter button{
+    width: 20vw;
+    height: 6vw;
+    border-radius: 1.1vw;
+    font-size: 2vw;
+    position: relative;
+    top: 35%;
+    background-color: #717CFF;
+    color: white;
+    border: 2px solid white;
+}
+.preFooter button:hover{
+    width: 21vw;
+    height: 7vw;
+}
+footer{
+    height: 20vw;
+    background-color: #717CFF;
+    display: flex;
+    justify-content: space-around;
+    padding: 2vw;
+    color: white;
+}
+.tradeMark{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2vw;
+}
+.tradeMark h3{
+    font-size: 1vw;
+}
+
+.pageLinks {
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+.pageLinks2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;  
+}
+.pageLinks2 li {
+    margin: 1.3vw;
+}
+.pageLinks li {
+    margin: 1.3vw;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.social img{
+    width: 17vw;
+}
+.logo2{
+    height: auto;
+    width: 60%;
+}
